@@ -1,3 +1,4 @@
+// Stylelint v14.8.3
 module.exports = {
   "customSyntax": "postcss-less",
   "rules": {
