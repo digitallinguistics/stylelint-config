@@ -7,7 +7,7 @@
   "author": "Daniel W. Hieber (https://github.com/dwhieb)",
   "main": "index.js",
   "devDependencies": {
-    "stylelint": "^14.7.1"
+    "stylelint": "^14.8.3"
   },
   "dependencies": {
     "postcss-less": "^6.0.0"
