@@ -6,13 +6,11 @@
   "bugs": "https://github.com/digitallinguistics/stylelint-config/issues",
   "author": "Daniel W. Hieber (https://github.com/dwhieb)",
   "main": "index.js",
-  "devDependencies": {
-    "stylelint": "^14.8.3"
-  },
-  "dependencies": {
-    "postcss-less": "^6.0.0"
-  },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.10.3"
   }
 }

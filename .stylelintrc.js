@@ -1,6 +1,5 @@
-// Stylelint v14.8.3
+// Stylelint v15.10.3
 module.exports = {
-  "customSyntax": "postcss-less",
   "rules": {
     "custom-media-pattern": null,
     "custom-property-pattern": null,
@@ -26,6 +25,7 @@ module.exports = {
         }
       }
     ],
+    "annotation-no-unknown": true,
     "at-rule-empty-line-before": null,
     "at-rule-name-case": "lower",
     "at-rule-name-newline-after": null,
@@ -89,6 +89,7 @@ module.exports = {
         "severity": "warning"
       }
     ],
+    "declaration-property-value-no-unknown": true,
     "font-family-name-quotes": "always-where-recommended",
     "font-family-no-duplicate-names": true,
     "font-family-no-missing-generic-family-keyword": true,
@@ -137,6 +138,7 @@ module.exports = {
     "media-feature-name-case": "lower",
     "media-feature-name-no-unknown": true,
     "media-feature-name-no-vendor-prefix": true,
+    "media-feature-name-value-no-unknown": true,
     "media-feature-parentheses-space-inside": "never",
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "always",
@@ -144,6 +146,7 @@ module.exports = {
     "media-query-list-comma-newline-before": "never-multi-line",
     "media-query-list-comma-space-after": "always-single-line",
     "media-query-list-comma-space-before": "never",
+    "media-query-no-invalid": true,
     "named-grid-areas-no-invalid": true,
     "no-descending-specificity": [
       true,
@@ -182,6 +185,7 @@ module.exports = {
         ]
       }
     ],
+    "selector-anb-no-unmatchable": true,
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",
     "selector-attribute-operator-space-before": "never",
