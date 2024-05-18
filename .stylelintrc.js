@@ -70,6 +70,7 @@ export default {
     "function-no-unknown": true,
     "function-url-no-scheme-relative": null,
     "function-url-quotes": "never",
+    "import-notation": null,
     "keyframe-declaration-no-important": true,
     "keyframes-name-pattern": null,
     "length-zero-no-unit": null,
