@@ -1,3 +1,4 @@
+// Stylelint v16.5.0
 export default {
   "rules": {
     "custom-media-pattern": null,
@@ -103,6 +104,7 @@ export default {
     "no-invalid-position-at-import-rule": true,
     "no-irregular-whitespace": true,
     "no-unknown-animations": true,
+    "no-unknown-custom-media": true,
     "number-max-precision": 4,
     "number-no-trailing-zeros": true,
     "property-no-unknown": true,
