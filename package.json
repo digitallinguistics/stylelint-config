@@ -2,15 +2,15 @@
   "name": "@digitallinguistics/stylelint-config",
   "description": "Stylelint config for DLx projects",
   "version": "0.2.0",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": "https://github.com/digitallinguistics/stylelint-config/issues",
   "author": "Daniel W. Hieber (https://github.com/dwhieb)",
   "main": "index.js",
+  "type": "module",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "peerDependencies": {
-    "stylelint": "^15.10.3"
+    "stylelint": "^16.5.0"
   }
 }

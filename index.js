@@ -1,3 +1,3 @@
-const config = require(`./.stylelintrc.js`)
+import config from './.stylelintrc.js'
 
-module.exports = config
+export default config
