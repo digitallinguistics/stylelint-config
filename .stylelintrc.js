@@ -1,5 +1,6 @@
 // Stylelint v16.5.0
 export default {
+  "extends": "stylelint-config-standard",
   "rules": {
     "custom-media-pattern": null,
     "custom-property-pattern": null,
@@ -26,21 +27,18 @@ export default {
       }
     ],
     "at-rule-empty-line-before": null,
-    "at-rule-no-vendor-prefix": true,
     "block-no-empty": [
       true,
       {
         "severity": "warning"
       }
     ],
-    "color-hex-length": "short",
     "color-named": [
       "always-where-possible"
     ],
     "color-no-hex": null,
     "color-no-invalid-hex": true,
     "comment-empty-line-before": null,
-    "comment-whitespace-inside": "always",
     "comment-no-empty": true,
     "custom-property-empty-line-before": null,
     "custom-property-no-missing-var-function": true,
@@ -64,13 +62,11 @@ export default {
       }
     ],
     "declaration-property-value-no-unknown": true,
-    "font-family-name-quotes": "always-where-recommended",
     "font-family-no-duplicate-names": true,
     "font-family-no-missing-generic-family-keyword": true,
     "font-weight-notation": "named-where-possible",
     "function-calc-no-unspaced-operator": true,
     "function-linear-gradient-no-nonstandard-direction": true,
-    "function-name-case": "lower",
     "function-no-unknown": true,
     "function-url-no-scheme-relative": null,
     "function-url-quotes": "never",
@@ -84,7 +80,6 @@ export default {
       }
     ],
     "media-feature-name-no-unknown": true,
-    "media-feature-name-no-vendor-prefix": true,
     "named-grid-areas-no-invalid": true,
     "no-descending-specificity": [
       true,
@@ -105,13 +100,11 @@ export default {
     "no-irregular-whitespace": true,
     "no-unknown-animations": true,
     "no-unknown-custom-media": true,
-    "number-max-precision": 4,
-    "number-no-trailing-zeros": true,
     "property-no-unknown": true,
-    "property-no-vendor-prefix": true,
     "rule-empty-line-before": [
       "always-multi-line",
       {
+        "except": ["first-nested"],
         "ignore": [
           "after-comment",
           "inside-block"
@@ -162,7 +155,6 @@ export default {
         ]
       }
     ],
-    "selector-no-vendor-prefix": true,
     "selector-pseudo-class-no-unknown": [
       true,
       {
@@ -171,9 +163,7 @@ export default {
         ]
       }
     ],
-    "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-element-no-unknown": true,
-    "selector-type-case": "lower",
     "selector-type-no-unknown": [
       true,
       {
@@ -182,7 +172,6 @@ export default {
         ]
       }
     ],
-    "shorthand-property-no-redundant-values": true,
     "string-no-newline": true,
     "time-min-milliseconds": 100,
     "unit-no-unknown": true,
@@ -194,6 +183,5 @@ export default {
         ]
       }
     ],
-    "value-no-vendor-prefix": true
   }
 }

@@ -12,5 +12,8 @@
   },
   "peerDependencies": {
     "stylelint": "^16.5.0"
+  },
+  "devDependencies": {
+    "stylelint-config-standard": "^36.0.0"
   }
 }
